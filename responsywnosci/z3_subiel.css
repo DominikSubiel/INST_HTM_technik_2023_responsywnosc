@@ -1,0 +1,26 @@
+div {
+ background-color:gold;
+}
+@media handheld, tv {
+ div {
+ background-color:red;
+ }
+}
+
+/*Reguła @media handheld, tv mówi przeglądarce internetowej, że czerwony kolor tła dla elementu 
+div ma zostać aktywowany tylko w momencie gdy nasza strona internetowa zostanie wyświetlona w 
+urządzeniu przenośnym (handheld) lub w telewizorze (tv), w przeciwnym razie kolor tła elementu
+div będzie złoty, bo reguła CSS, która określa złoty kolor tła elementu div, nie zostanie nadpisana. 
+Przecinek w naszej regule @media odpowiada za słowo "lub".
+*/
+<textarea>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK href="z3_subiel.css" rel="stylesheet" type="text/CSS">
+</head>
+ <body>
+ <div>to jest przykładowy element - div</div>
+ </body>
+</html>
+</textarea>

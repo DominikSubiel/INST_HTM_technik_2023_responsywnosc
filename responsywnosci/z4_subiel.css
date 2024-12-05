@@ -1,0 +1,8 @@
+div {
+ background-color:gold;
+}
+@media all and (min-width:480px) and (max-width:800px) {
+ div {
+ background-color:red;
+ }
+}

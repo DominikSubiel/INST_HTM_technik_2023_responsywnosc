@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>Darmowy Kurs CSS</title>
+ <style>
+ @media screen {
+ div {
+ background-color:red;
+ }
+ }
+ </style>
+ </head>
+ <body>
+ <div>to jest przykładowy element - div</div>
+ </body>
+</html>
+
+
+Wytłumaczenie:
+Reguła @media screen mówi przeglądarce internetowej, że czerwony kolor tła dla elementu div ma 
+zostać aktywowany tylko w momencie gdy nasza strona internetowa zostanie wyświetlona w 
+komputerze z kolorowym ekranem (screen).
